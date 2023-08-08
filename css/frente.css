@@ -1,0 +1,19 @@
+img:hover {
+  width: 150px;
+  height: 150px;
+  transition: 7s;
+  opacity: 50%
+}
+
+img { 
+  transition: width 0.3s ease, height 0.3s ease;
+  
+}
+
+.corpo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

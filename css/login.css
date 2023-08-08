@@ -1,0 +1,28 @@
+
+body {
+    background-image: url(PinuCare.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#section2 {
+    background-color: #73b4ec;
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-radius: 30px;
+    border: solid 5px black;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.4);
+}
+
+.caixinhaInput{
+    border-radius: 8px;
+}
+
