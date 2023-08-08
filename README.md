@@ -22,19 +22,3 @@ git checkout nome-da-branch
 git add .
 git commit -m "Comentário sobre tudo que foi feito"
 ```
-
-3. Solicitar o **merge request** na branch **master**:
-
-```
-git push --set-upstream origin nome-da-branch -o merge_request.create -o merge_request.target=master
-```
-
-O *merge request* pode ser feito via **GitLab** também, para isso, executar somente o *push*:
-```
-git push
-
-```
-
-4. Solicitar a aprovação do *merge request* por um usuário com perfil **Maintainer**.
-
-5. Após aprovação, o próprio usuário que solicitou o *merge request* pode realizar o *merge* na **branch master** via GitLab mesmo.
