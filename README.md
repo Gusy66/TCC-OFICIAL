@@ -1,4 +1,4 @@
-## Instruções para customização do mapa/split ou alteração de código dos serviços:
+## Instruções para customização ou alteração de código dos serviços:
 
 1. Deverá ser criada uma **branch** do projeto:
 
