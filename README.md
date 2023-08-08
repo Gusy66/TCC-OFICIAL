@@ -4,7 +4,7 @@
 
 Caso não tenha o repositório local (máquina do dev):
 ```
-git clone https://gitlab.com/finnet-sa/edi/fontes/nome-do-mapa.git
+git clone
 git checkout -b nome-da-branch
 ```
 
