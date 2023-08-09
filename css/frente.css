@@ -1,19 +1,56 @@
+
+
+      @import url(bootstrap-grid.css);
+      @import url(bootstrap-grid.css.map);
+      @import url(bootstrap-grid.min.css);
+      @import url(bootstrap-grid.min.css.map);
+      @import url(bootstrap-grid.rtl.css);
+      @import url(bootstrap-grid.rtl.css.map);
+      @import url(bootstrap-grid.rtl.min.css);
+      @import url(bootstrap-grid.rtl.min.css.map);
+      @import url(bootstrap-reboot.css);
+      @import url(bootstrap-reboot.css.map);
+      @import url(bootstrap-reboot.min.css);
+      @import url(bootstrap-reboot.min.css.map);
+      @import url(bootstrap-reboot.rtl.css);
+      @import url(bootstrap-reboot.rtl.css.map);
+      @import url(bootstrap-reboot.rtl.min.css);
+      @import url(bootstrap-reboot.rtl.min.css.map);
+      @import url(bootstrap-utilities.css);
+      @import url(bootstrap-utilities.css.map);
+      @import url(bootstrap-utilities.min.css);
+      @import url(bootstrap-utilities.min.css.map);
+      @import url(bootstrap-utilities.rtl.css);
+      @import url(bootstrap-utilities.rtl.css.map);
+      @import url(bootstrap-utilities.rtl.min.css);
+      @import url(bootstrap-utilities.rtl.min.css.map);
+      @import url(bootstrap.css);
+      @import url(bootstrap.css.map);
+      @import url(bootstrap.min.css);
+      @import url(bootstrap.min.css.map);
+      @import url(bootstrap.rtl.css);
+      @import url(bootstrap.rtl.css.map);
+      @import url(bootstrap.rtl.min.css);
+      @import url(bootstrap.rtl.min.css.map);
+
+
+
 img:hover {
   width: 150px;
   height: 150px;
-  transition: 7s;
-  opacity: 50%
+  transition: 3s;
 }
 
-img { 
-  transition: width 0.3s ease, height 0.3s ease;
-  
+.row{
+  width: 100%;
+
 }
 
-.corpo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Roboto+Mono:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Roboto+Mono:wght@600&family=Roboto:wght@900&display=swap');
+
+header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
