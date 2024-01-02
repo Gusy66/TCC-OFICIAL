@@ -22,12 +22,11 @@ require_once('dbconn.php');
 
             <label>Sintomas:</label><br>
             
-            <button type="checkbox" name="sintomas[]" value="tosse">Tosse</button><br>
-            <input type="checkbox" name="sintomas[]" value="dor_de_cabeca">Dor de Cabeça<br>
-            <input type="checkbox" name="sintomas[]" value="dores_no_corpo">Dores no Corpo<br>
-            <input type="checkbox" name="sintomas[]" value="nauseas">Náuseas<br>
-            <input type="checkbox" name="sintomas[]" value="vomitos">Vômitos<br>
-            <input type="checkbox" name="sintomas[]" value="coriza">Coriza<br><br>
+            <input class="check-sintoma" type="checkbox" name="sintomas[]" value="dor-na-nuca">Dor na nuca</input><br>
+            <input class="check-sintoma"type="checkbox" name="sintomas[]" value="nauseas">Dor na parte da frente da cabeça<br>
+            <input class="check-sintoma"type="checkbox" name="sintomas[]" value="vomitos">Dor em cima da cabeça<br>
+            <input class="check-sintoma"type="checkbox" name="sintomas[]" value="dores_no_corpo">Dor no peito esquerdo (coração)<br>
+            <input class="check-sintoma"type="checkbox" name="sintomas[]" value="coriza">Coriza<br><br>
 
             <input type="submit" value="Enviar">
         </form>
